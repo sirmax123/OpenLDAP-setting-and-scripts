@@ -1,0 +1,8 @@
+dn: cn=nssproxy,ou=Group,dc=customer_organization,dc=fuel_domain
+cn: nssproxy
+objectClass: groupOfNames
+objectClass: top
+member: uid=nssproxy-node1,ou=service_users,dc=customer_organization,dc=fuel_domain
+member: uid=nssproxy-node2,ou=service_users,dc=customer_organization,dc=fuel_domain
+member: uid=nssproxy-node3,ou=service_users,dc=customer_organization,dc=fuel_domain
+member: uid=nssproxy-node4,ou=service_users,dc=customer_organization,dc=fuel_domain

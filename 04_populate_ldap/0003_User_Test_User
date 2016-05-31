@@ -1,0 +1,22 @@
+dn: uid=testuser1,ou=People,dc=customer_organization,dc=fuel_domain
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: testuser1
+cn: Test User1
+sn: User1
+givenName: User1
+title: Test User1
+telephoneNumber: +1
+mobile: +1
+postalAddress: AddressLine1$AddressLine2$AddressLine3
+userPassword: {CRYPT}$6$DS/mzad5$EB.cNCLE7KB7OCPK1nU6aEA8HnQDLY1FPd3KaWPVqaNBtWhmh/4cOUgD1I8tQSFu41yy7jMXDrg9TDqlAbuLX.
+labeledURI: http://null
+loginShell: /usr/bin/sudosh
+uidNumber: 9997
+gidNumber: 9997
+homeDirectory: /home/testuser1/
+description: This is an example user

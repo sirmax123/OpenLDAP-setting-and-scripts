@@ -1,0 +1,31 @@
+dn: uid=test1,ou=People,dc=customer_organization,dc=fuel_domain
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: test1
+cn: test1 test1
+sn: test1
+givenName: test1
+title: test user for demo
+telephoneNumber: +38 067 341 80 70
+mobile: +38 067 341 80 70
+postalAddress: AddressLine1$AddressLine2$AddressLine3
+userPassword: {CRYPT}$6$DS/mzad5$EB.cNCLE7KB7OCPK1nU6aEA8HnQDLY1FPd3KaWPVqaNBtWhmh/4cOUgD1I8tQSFu41yy7jMXDrg9TDqlAbuLX.
+labeledURI: http://wiki.test1.noname.com.ua/
+loginShell: /usr/bin/sudosh
+uidNumber: 9998
+gidNumber: 9998
+homeDirectory: /home/test1
+description: This is me :)
+
+
+dn: cn=test1,ou=Group,dc=customer_organization,dc=fuel_domain
+changetype: add
+cn: test1
+objectClass: posixGroup
+gidNumber: 9998
+description: Fuel Users
+memberUid: test1

@@ -1,0 +1,1 @@
+ldapmodify  -Y EXTERNAL  -H ldapi:// <0007_addSyncProv.ldif

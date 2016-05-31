@@ -1,0 +1,10 @@
+dn: olcDatabase={2}hdb,cn=config
+changetype: modify
+add: olcSyncRepl
+olcSyncRepl: rid=101 provider=ldaps://ldap1            binddn="cn=admin,dc=fuel_domain"        bindmethod=simple credentials=r00tme searchbase="dc=fuel_domain"        type=refreshAndPersist                      retry="5 5 300 5" timeout=1 tls_reqcert=allow tls_cacert=/etc/ssl/certs/rootca.crt
+olcSyncRepl: rid=102 provider=ldaps://ldap2            binddn="cn=admin,dc=fuel_domain"        bindmethod=simple credentials=r00tme searchbase="dc=fuel_domain"        type=refreshAndPersist                      retry="5 5 300 5" timeout=1 tls_reqcert=allow tls_cacert=/etc/ssl/certs/rootca.crt
+-
+add: olcMirrorMode
+olcMirrorMode: TRUE
+
+

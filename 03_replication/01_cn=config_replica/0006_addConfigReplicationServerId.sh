@@ -1,0 +1,1 @@
+ldapmodify  -Y EXTERNAL  -H ldapi:// <0006_addConfigReplication.ldif

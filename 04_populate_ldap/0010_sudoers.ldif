@@ -1,0 +1,53 @@
+dn: cn=defaults,ou=sudo,ou=services,dc=customer_organization,dc=fuel_domain
+objectClass: top
+objectClass: sudoRole
+cn: defaults
+description: Default sudoOption's go here
+sudoOption: env_reset
+sudoOption: mail_badpass
+sudoOption: secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+sudoOrder: 1
+
+dn: cn=root,ou=sudo,ou=services,dc=customer_organization,dc=fuel_domain
+objectClass: top
+objectClass: sudoRole
+cn: root
+sudoUser: root
+sudoHost: ALL
+sudoRunAsUser: ALL
+sudoRunAsGroup: ALL
+sudoCommand: ALL
+sudoOrder: 2
+
+dn: cn=%admin,ou=sudo,ou=services,dc=customer_organization,dc=fuel_domain
+objectClass: top
+objectClass: sudoRole
+cn: %admin
+sudoUser: %admin
+sudoHost: ALL
+sudoRunAsUser: ALL
+sudoCommand: ALL
+sudoOrder: 3
+
+dn: cn=%sudo,ou=sudo,ou=services,dc=customer_organization,dc=fuel_domain
+objectClass: top
+objectClass: sudoRole
+cn: %sudo
+sudoUser: %sudo
+sudoHost: ALL
+sudoRunAsUser: ALL
+sudoRunAsGroup: ALL
+sudoCommand: ALL
+sudoOrder: 4
+
+dn: cn=%fuel_users,ou=sudo,ou=services,dc=customer_organization,dc=fuel_domain
+objectClass: top
+objectClass: sudoRole
+cn: %fuel_users
+sudoUser: %fuel_users
+sudoHost: ALL
+sudoRunAsUser: ALL
+sudoRunAsGroup: ALL
+sudoCommand: ALL
+sudoOrder: 5
+

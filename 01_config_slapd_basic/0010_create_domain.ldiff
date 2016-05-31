@@ -1,0 +1,5 @@
+dn: dc=fuel_domain
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: fuel_users

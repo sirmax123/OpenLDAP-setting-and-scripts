@@ -1,0 +1,5 @@
+dn: dc=customer_organization,dc=fuel_domain
+dc: customer_organization
+o: Example Organization
+objectClass: dcObject
+objectClass: organization

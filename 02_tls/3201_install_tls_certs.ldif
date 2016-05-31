@@ -1,0 +1,12 @@
+dn: cn=config
+replace: olcTLSVerifyClient
+olcTLSVerifyClient: never
+-
+replace: olcTLSCertificateFile
+olcTLSCertificateFile: /etc/ldap/ssl/ldap.crt
+-
+replace: olcTLSCertificateKeyFile
+olcTLSCertificateKeyFile: /etc/ldap/ssl/ldap.key
+-
+replace: olcTLSCACertificateFile
+olcTLSCACertificateFile: /etc/ssl/certs/rootca.crt

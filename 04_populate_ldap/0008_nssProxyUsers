@@ -1,0 +1,88 @@
+dn: uid=nssproxy-node1,ou=service_users,dc=customer_organization,dc=fuel_domain
+uid: nssproxy-node1
+gecos: Network Service Switch Proxy User
+objectClass: top
+#objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+userPassword: {SSHA}RsAMqOI3647qg1gAZF3x2BKBnp0sEVfa
+cn: node1
+sn: node1
+shadowLastChange: 15140
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/false
+uidNumber: 801
+gidNumber: 801
+homeDirectory: /home/nssproxy
+
+
+dn: uid=nssproxy-node2,ou=service_users,dc=customer_organization,dc=fuel_domain
+uid: nssproxy-node2
+gecos: Network Service Switch Proxy User
+objectClass: top
+#objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+userPassword: {SSHA}RsAMqOI3647qg1gAZF3x2BKBnp0sEVfa
+cn: node2
+sn: node2
+shadowLastChange: 15140
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/false
+uidNumber: 802
+gidNumber: 801
+homeDirectory: /home/nssproxy
+
+
+dn: uid=nssproxy-node3,ou=service_users,dc=customer_organization,dc=fuel_domain
+uid: nssproxy-node3
+gecos: Network Service Switch Proxy User
+objectClass: top
+#objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+userPassword: {SSHA}RsAMqOI3647qg1gAZF3x2BKBnp0sEVfa
+cn: node3
+sn: node3
+shadowLastChange: 15140
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/false
+uidNumber: 803
+gidNumber: 801
+homeDirectory: /home/nssproxy
+
+
+dn: uid=nssproxy-node4,ou=service_users,dc=customer_organization,dc=fuel_domain
+uid: nssproxy-node4
+gecos: Network Service Switch Proxy User
+objectClass: top
+#objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+userPassword: {SSHA}RsAMqOI3647qg1gAZF3x2BKBnp0sEVfa
+cn: node4
+sn: node4
+shadowLastChange: 15140
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/false
+uidNumber: 804
+gidNumber: 801
+homeDirectory: /home/nssproxy
+
+

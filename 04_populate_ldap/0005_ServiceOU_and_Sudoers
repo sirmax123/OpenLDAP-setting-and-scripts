@@ -1,0 +1,11 @@
+dn: ou=services,dc=customer_organization,dc=fuel_domain
+ou: Services
+objectClass: top
+objectClass: organizationalUnit
+description: Group all services under this OU
+
+dn: ou=sudo,ou=services,dc=customer_organization,dc=fuel_domain
+objectClass: organizationalUnit
+description: sudo
+objectClass: top
+
